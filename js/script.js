@@ -41,12 +41,14 @@ function printCard() {
 
     prioButtons.forEach((item, i) => {
         item.addEventListener("click", () => {
-           
-            duties[i].importance++;
-            item.innerHTML = duties[i].importance;
-            colorize(duties[i].importance, item);
-           
-
+            if (duties[i].importance < 5) {
+                duties[i].importance++;
+                item.innerHTML = duties[i].importance;
+                colorize(duties[i].importance, item);
+            } else {
+                item.innerHTML = `
+                <div class="alert alert-danger" role="alert"> Maximum priority reached, just DO THE TASK!</div>`
+            }
         })
         colorize(duties[i].importance, item);
     })
