@@ -55,11 +55,11 @@ printCard();
 
 function colorize(newPrio, prioButton) {
     if (newPrio < 2) {
-        prioButton.setAttribute("class", "btn btn-sm bg-success prio-button")
+        prioButton.setAttribute("class", "btn btn-sm bg-success prio-button text-white")
     } else if (newPrio < 4) {
-        prioButton.setAttribute("class", "btn btn-sm bg-warning prio-button")
+        prioButton.setAttribute("class", "btn btn-sm bg-warning prio-button text-white")
     } else {
-        prioButton.setAttribute("class", "btn btn-sm bg-danger prio-button")
+        prioButton.setAttribute("class", "btn btn-sm bg-danger prio-button text-white")
     }
 }
 
