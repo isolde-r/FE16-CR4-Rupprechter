@@ -16,31 +16,28 @@
 <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#"><i class="bi bi-list-task me-2"></i>MyPlanner</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav d-flex">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Tasks</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Settings</a>
-                        </li>
-                        <li class="nav-item ms-auto">
-                            <a class="nav-link active" href="#" aria-current="page"><i class="bi bi-bell-fill"></i></a>
-                        </li>
-                    </ul>
-                </div>
+            <a class="navbar-brand ms-3" href="#"><i class="bi bi-list-task me-2"></i>MyPlanner</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+                <ul class="navbar-nav d-flex ms-2">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Tasks</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Settings</a>
+                    </li>
+                </ul>
+                <p class="me-3 mt-3 ms-2"><i class="bi bi-bell-fill text-white"></i></p>
             </div>
         </nav>
     </header>
+
     <main>
         <section class="hero position-relative">
             <img src="images/planner_hero.jpg" class="img-fluid" alt="computer, tasklist and glasses">
@@ -48,8 +45,9 @@
                 class="h3 text-white position-absolute top-50 start-50 translate-middle text-center px-4 py-5 bg-secondary bg-opacity-75">
                 Weekly planner</h1>
         </section>
+
         <section class="container">
-            <header class="d-flex align-items-center my-3">
+            <header class="d-flex align-items-center my-3 col-lg-9 col-md-10 col-sm-12 mx-auto">
                 <h1 class="me-auto">Weekly tasks</h1>
                 <p class="m-0">Sort by priority:</p>
                 <button type="button" class="btn sortMe"><i class="bi bi-sort-up"></i></button>
@@ -58,23 +56,26 @@
         </section>
 
     </main>
+
     <footer class="navbar container-fluid d-block bg-dark text-center">
-        <p class="text-white my-3 text"><i class="bi bi-facebook px-2 py-1 border-light border m-2 rounded"></i><i
-                class="bi bi-twitter px-2 py-1 border-light border m-2 rounded"></i><i
-                class="bi bi-google px-2 py-1 border-light border m-2 rounded"></i><i
-                class="bi bi-instagram px-2 py-1 border-light border m-2 rounded"></i><i
-                class="bi bi-linkedin px-2 py-1 border-light border m-2 rounded"></i><i
-                class="bi bi-github px-2 py-1 border-light border m-2 rounded"></i></p>
-        <!-- <nav class=" "> -->
-        <!-- <div class=""> -->
-        <form class="d-flex align-items-center text-white" role="search">
-            <label class="offset-3 col-auto me-2" for="">Sign up for our newsletter</label>
-            <input class="col-3 me-2" type="search" aria-label="Search">
-            <button class="col-1 btn btn-outline-light text-white" type="submit">Search</button>
+        <p class="text-white my-3 text">
+            <i class="bi bi-facebook px-2 py-1 border-light border m-2 rounded"></i>
+            <i class="bi bi-twitter px-2 py-1 border-light border m-2 rounded"></i>
+            <i class="bi bi-google px-2 py-1 border-light border m-2 rounded"></i>
+            <i class="bi bi-instagram px-2 py-1 border-light border m-2 rounded"></i>
+            <i class="bi bi-linkedin px-2 py-1 border-light border m-2 rounded"></i>
+            <i class="bi bi-github px-2 py-1 border-light border m-2 rounded"></i>
+        </p>
+        <form class="d-flex flex-column flex-sm-row align-items-center text-white col-sm-11 col-md-10 mx-auto"
+            role="search">
+            <label
+                class="col-8 text-center text-sm-end col-sm-5 col-md-4 col-lg-3 offset-lg-1 me-2 text-end mb-2 mb-sm-0"
+                for="text">Sign up for our newsletter</label>
+            <input class="col-5 col-sm-3 col-md-5 col-lg-4 me-2 mb-3 mb-sm-0" type="search" aria-label="Search" name="text">
+            <button class="col-3 col-sm-2 col-md-2 col-lg-2 col-xxl-1 btn btn-outline-light text-white"
+                type="submit">Subscribe</button>
         </form>
-        <!-- </div> -->
         <p class="mt-5 text-white">&copy; 2022 Copyright: Rupprechter</p>
-        <!-- </nav> -->
     </footer>
 
 
