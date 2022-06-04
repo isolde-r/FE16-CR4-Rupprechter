@@ -3,63 +3,63 @@ let tasks = `[
         "taskName": "Do the groceries",
         "image": "images/grocery.jpg",
         "description": "Go to the market and pick the best the season has to offer.",
-        "importance": 5,
+        "importance": 0,
         "location": "Brunnenmarkt, Vienna"
     },
     {
         "taskName": "Study Javascript",
         "image": "images/javascript.jpg",
         "description": "Study and practice the learnt topics.",
-        "importance": 4,
+        "importance": 0,
         "location": "Home"
     },
     {
         "taskName": "Go by steam train",
         "image": "images/steamtrain.jpg",
         "description": "Take a fantastic short trip on an old train.",
-        "importance": 3,
+        "importance": 0,
         "location": "Silberwald, Lower Austria"
     },
     {
         "taskName": "Meet best friends",
         "image": "images/friends.jpg",
         "description": "Have a good, carefree time with old friends.",
-        "importance": 3,
+        "importance": 0,
         "location": "Donauinsel, Vienna"
     },
     {
         "taskName": "Do the laundry",
         "image": "images/laundry.jpg",
         "description": "Turn up your favorite song and get rid of this annoying task.",
-        "importance": 4,
+        "importance": 0,
         "location": "Home"
     },
     {
         "taskName": "Call grandparents",
         "image": "images/phone.jpg",
         "description": "They always love to hear the pranks of their grandchildren.",
-        "importance": 2,
+        "importance": 0,
         "location": "Home"
     },
     {
         "taskName": "Bake birthday cake",
         "image": "images/cake.jpg",
         "description": "Daddys Birthday is coming soon!!",
-        "importance": 5,
+        "importance": 0,
         "location": "Home"
     },
     {
         "taskName": "Buy birthday present",
         "image": "images/present.jpg",
         "description": "Buy something useful and sustainable.",
-        "importance": 3,
+        "importance": 0,
         "location": "Mariahilfer Straße, Vienna"
     },
     {
         "taskName": "Go to the playground",
         "image": "images/playground.jpg",
         "description": "Time to have fun for the kids.",
-        "importance": 2,
+        "importance": 0,
         "location": "Prater, Vienna"
     }
 ]`
